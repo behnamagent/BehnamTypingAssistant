@@ -1,0 +1,17 @@
+
+name: BTA Windows Build
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Repository Ready
+        run: echo "Behnam Typing Assistant Build Started"
