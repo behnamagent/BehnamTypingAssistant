@@ -1,0 +1,5 @@
+/workspaces/BehnamTypingAssistant/src/BTA.Core/obj/Debug/net8.0/BTA.Core.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/BehnamTypingAssistant/src/BTA.Core/obj/Debug/net8.0/BTA.Core.AssemblyInfoInputs.cache
+/workspaces/BehnamTypingAssistant/src/BTA.Core/obj/Debug/net8.0/BTA.Core.AssemblyInfo.cs
+/workspaces/BehnamTypingAssistant/src/BTA.Core/obj/Debug/net8.0/BTA.Core.csproj.CoreCompileInputs.cache
+/workspaces/BehnamTypingAssistant/src/BTA.Core/obj/Debug/net8.0/BTA.Core.sourcelink.json

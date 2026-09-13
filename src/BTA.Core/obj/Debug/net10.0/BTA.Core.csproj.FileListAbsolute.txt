@@ -1,0 +1,12 @@
+/workspaces/BehnamTypingAssistant/src/BTA.Core/bin/Debug/net10.0/BTA.Core.deps.json
+/workspaces/BehnamTypingAssistant/src/BTA.Core/bin/Debug/net10.0/BTA.Core.dll
+/workspaces/BehnamTypingAssistant/src/BTA.Core/bin/Debug/net10.0/BTA.Core.pdb
+/workspaces/BehnamTypingAssistant/src/BTA.Core/obj/Debug/net10.0/BTA.Core.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/BehnamTypingAssistant/src/BTA.Core/obj/Debug/net10.0/BTA.Core.AssemblyInfoInputs.cache
+/workspaces/BehnamTypingAssistant/src/BTA.Core/obj/Debug/net10.0/BTA.Core.AssemblyInfo.cs
+/workspaces/BehnamTypingAssistant/src/BTA.Core/obj/Debug/net10.0/BTA.Core.csproj.CoreCompileInputs.cache
+/workspaces/BehnamTypingAssistant/src/BTA.Core/obj/Debug/net10.0/BTA.Core.sourcelink.json
+/workspaces/BehnamTypingAssistant/src/BTA.Core/obj/Debug/net10.0/BTA.Core.dll
+/workspaces/BehnamTypingAssistant/src/BTA.Core/obj/Debug/net10.0/refint/BTA.Core.dll
+/workspaces/BehnamTypingAssistant/src/BTA.Core/obj/Debug/net10.0/BTA.Core.pdb
+/workspaces/BehnamTypingAssistant/src/BTA.Core/obj/Debug/net10.0/ref/BTA.Core.dll
