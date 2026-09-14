@@ -1,5 +1,5 @@
 
-name: BTA Windows Build
+name: Build BTA Windows
 
 on:
   push:
@@ -13,5 +13,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Repository Ready
-        run: echo "Behnam Typing Assistant Build Started"
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+
+      - name: Restore
+        run: dotnet restore src/BTA.Core/BTA.Core.csproj
+
+      - name: Build
+        run: dotnet build src/BTA.Core/BTA.Core.csproj --configuration Release

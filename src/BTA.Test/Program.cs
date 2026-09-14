@@ -1,14 +1,14 @@
 ﻿
-using System.Text;
 using BTA.Core;
 
-Console.OutputEncoding = Encoding.UTF8;
+var tracker = new KeyTracker();
 
-string text = "";
+Console.WriteLine("Shift...");
+Console.ReadKey();
 
-foreach (char c in "sghl ")
-{
-    text = TextProcessor.ProcessKey(text, c);
-}
+Console.WriteLine("Shift...");
+Console.ReadKey();
 
-Console.WriteLine($"\u200F{text}");
+Console.WriteLine(tracker.IsDoubleShift()
+    ? "Double Shift Detected!"
+    : "No");
