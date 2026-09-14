@@ -1,4 +1,3 @@
-
 namespace BTA.Core;
 
 public static class WordFixer
@@ -10,7 +9,10 @@ public static class WordFixer
 
         var parts = text.Split(' ');
 
-        parts[^1] = LayoutConverter.ConvertLayout(parts[^1]);
+        if (SmartDetector.ShouldConvert(parts[^1]))
+        {
+            parts[^1] = LayoutConverter.ConvertLayout(parts[^1]);
+        }
 
         return string.Join(" ", parts);
     }

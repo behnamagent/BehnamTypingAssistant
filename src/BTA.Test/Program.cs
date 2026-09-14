@@ -1,14 +1,17 @@
-﻿
+﻿using System.Text;
 using BTA.Core;
 
-var tracker = new KeyTracker();
+Console.OutputEncoding = Encoding.UTF8;
 
-Console.WriteLine("Shift...");
-Console.ReadKey();
+string[] tests =
+{
+    "sghl",
+    "khubi",
+    "OpenAI",
+    "Windows"
+};
 
-Console.WriteLine("Shift...");
-Console.ReadKey();
-
-Console.WriteLine(tracker.IsDoubleShift()
-    ? "Double Shift Detected!"
-    : "No");
+foreach (var t in tests)
+{
+    Console.WriteLine($"{t} -> {WordFixer.FixLastWord(t)}");
+}

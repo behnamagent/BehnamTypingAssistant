@@ -18,7 +18,16 @@ jobs:
           dotnet-version: 10.0.x
 
       - name: Restore
-        run: dotnet restore src/BTA.Core/BTA.Core.csproj
+        run: dotnet restore src/BTA.Windows/BTA.Windows.csproj
 
       - name: Build
-        run: dotnet build src/BTA.Core/BTA.Core.csproj --configuration Release
+        run: dotnet build src/BTA.Windows/BTA.Windows.csproj -c Release
+
+      - name: Publish
+        run: dotnet publish src/BTA.Windows/BTA.Windows.csproj -c Release -r win-x64 --self-contained true -o publish
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: BTA-Windows
+          path: publish
