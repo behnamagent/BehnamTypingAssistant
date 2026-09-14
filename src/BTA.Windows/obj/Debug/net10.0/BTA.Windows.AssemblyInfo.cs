@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BTA.Windows")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9a4d410138393c163984f8c5baf7c19558a244d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c4bcb72fd18cbe79bb58a8d01db91ff04c4d9d8f")]
 [assembly: System.Reflection.AssemblyProductAttribute("BTA.Windows")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BTA.Windows")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

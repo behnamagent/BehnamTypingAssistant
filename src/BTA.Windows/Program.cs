@@ -1,7 +1,34 @@
-﻿using System.Text;
-using BTA.Core;
+﻿
+using System.Windows.Forms;
 
-Console.OutputEncoding = Encoding.UTF8;
+namespace BTA.Windows;
 
-string word = "sghl";
-Console.WriteLine(LayoutConverter.ConvertLayout(word));
+internal static class Program
+{
+    [STAThread]
+    static void Main()
+    {
+        ApplicationConfiguration.Initialize();
+
+        using var tray = new TrayManager();
+        using var hook = new KeyboardHook();
+
+        var buffer = new TextBuffer();
+
+        hook.KeyPressed += vk =>
+        {
+            var fixedWord = buffer.OnKey(vk);
+
+            if (fixedWord is not null)
+            {
+                SendInputHelper.Backspace(buffer.CurrentWord.Length);
+                SendInputHelper.TypeText(fixedWord);
+                SendInputHelper.TypeText(" ");
+            }
+        };
+
+        hook.Start();
+
+        Application.Run();
+    }
+}
