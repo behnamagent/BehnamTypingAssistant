@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BTA.Core.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9a4d410138393c163984f8c5baf7c19558a244d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e06dea3d9dbfbd4f5f0378e3d01c818570e3421")]
 [assembly: System.Reflection.AssemblyProductAttribute("BTA.Core.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BTA.Core.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
